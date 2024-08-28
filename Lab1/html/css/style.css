@@ -1,0 +1,21 @@
+
+.logo{
+    width: 250px;
+    height: 250px;
+}
+.nav-btn{
+    background-color:pink;
+    color: rgb(244, 16, 137);
+}
+ul{
+    display: flex;
+    font-size: larger;
+    size: 10px;
+}
+ul li{
+    list-style: none;
+   margin: 0 30px;   
+}
+.div{
+    color: rgb(240, 155, 251);
+}

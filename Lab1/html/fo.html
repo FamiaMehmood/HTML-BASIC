@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp and Login </title>
+    <link rel="stylesheet" href="C:\Users\CUI\Desktop\fam\html\css\style.css">
+</head>
+<body> 
+    <h1>SignUp and Login</h1>
+    <div class="new"></div>
+    <form>
+Name:<input type="text" value="Enter your name Here" class="new"><br>
+
+Number:<input type="text" value="Enter your number Here" class="new"><br>
+
+Email:<input type="email" value="Enter your email Here" class="new"><br>
+
+Password:<input type="password" value="Enter your password Here" class="new"><br>
+<button type="submit" onclick="newfun()">Submit</button>
+    </form>
+    <script>
+function newfun(){
+    var n=document.getElementsByClassName("new");
+    for (let index = 0; index < n.length; index++) {
+        console.log(n[index].value);  
+    }
+setTimeout(function(){
+    window.location.reload();
+},3000);
+}
+    </script>
+</body>
+</html>
